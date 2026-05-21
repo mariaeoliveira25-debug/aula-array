@@ -1,6 +1,8 @@
+// Maria Eduarda Rosa
   // Exemplo de array 
   
   let sucos = ("maçã", "banana", "laranja", "uva");
+  console.log(sucos[0]);
 
   // Criando um array de números 
   let numeros = [1, 2, 3, 4, 5];
@@ -16,10 +18,13 @@
     console.log(times);
     
     // Descobrindo o tamanho do array 
+    let games = ["Fifa", "Call of duty "," Minecreft", "Fortinite"];
     console.log(games.length);
 
     // Adicionando um elemento ao final do array
     let cores = ["Vermelho","Azul", "Verde"];
+    cores.push("Amarelo");
+    console.log(cores);
 
     // Removendo o último elemento do array
     let carros = [ "Fusca", "Gol", "Civic", "Corolla"];
